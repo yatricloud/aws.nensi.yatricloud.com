@@ -363,9 +363,9 @@ function Contact() {
             </p>
             <div className="space-y-4">
               <ContactLink
-                href="mailto:nensi.ravaliya@yatricloud.com"
+                href="mailto:ravaliyanensi@gmail.com"
                 icon={<Mail />}
-                label="nensi.ravaliya@yatricloud.com"
+                label="ravaliyanensi@gmail.com"
               />
               <ContactLink
                 href="https://www.linkedin.com/in/nencyravaliya28/"
