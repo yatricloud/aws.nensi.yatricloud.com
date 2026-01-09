@@ -129,9 +129,17 @@ function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
               <h1 className="text-5xl font-bold mb-4">Nensi Ravaliya</h1>
-              <p className="text-xl text-[#ff9c08] mb-8">
+              <p className="text-xl text-[#ff9c08] mb-4">
                 AWS Yatri Community Leader & Cloud Solutions Architect Trainer
               </p>
+              {/* AWS Certification Badge */}
+              <div className="mb-8 inline-flex items-center space-x-3 bg-gradient-to-r from-[#ff9c08]/20 to-[#ff9c08]/10 border-2 border-[#ff9c08] rounded-lg px-6 py-3 backdrop-blur-sm">
+                <Award className="w-6 h-6 text-[#ff9c08] animate-pulse" />
+                <span className="text-lg font-bold text-white">
+                  AWS Solutions Architect
+                </span>
+                <span className="text-[#ff9c08] font-semibold">Certified</span>
+              </div>
               <div className="flex space-x-4 mb-8">
                 <CloudLightning className="w-12 h-12 text-[#ff9c08] animate-pulse" />
               </div>
@@ -214,8 +222,20 @@ function About() {
         <h1 className="text-4xl font-bold mb-8">About Me</h1>
         <div className="grid md:grid-cols-2 gap-12">
           <div className="space-y-6">
+            {/* Certification Highlight */}
+            <div className="bg-gradient-to-r from-[#ff9c08]/20 to-[#ff9c08]/10 border-2 border-[#ff9c08] rounded-lg p-4 mb-6">
+              <div className="flex items-center space-x-3">
+                <Award className="w-8 h-8 text-[#ff9c08]" />
+                <div>
+                  <p className="text-xl font-bold text-white">
+                    AWS Solutions Architect
+                  </p>
+                  <p className="text-[#ff9c08] font-semibold">Certified Professional</p>
+                </div>
+              </div>
+            </div>
             <p className="text-lg leading-relaxed">
-              As a Devsecops Engineer at Standard Chartered, I believe in
+              As a Devsecops Engineer at Standard Chartered and an AWS Solutions Architect Certified professional, I believe in
               growing together as a team. My passion lies in building and
               nurturing communities, particularly in the AWS ecosystem.
             </p>
